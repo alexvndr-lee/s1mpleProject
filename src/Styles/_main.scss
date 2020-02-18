@@ -1,0 +1,24 @@
+.main-intro {
+    height: 80vh;
+    background: url('https://zikurat.media/wp-content/uploads/2020/01/NAVI_EPL_S10_Finals.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main-portfolio {
+    background: url("https://weplay-cdn.azureedge.net/weplay-public/2020-01-07/69ca055a5215cb9dda288845b846f84d_large_cover.070804-D1D02A-7C840B.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    filter: blur(0.1px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    .main-portfolio_text_h5 {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        width: 80%;
+        line-height: 40px;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+.list {
+    font-family: 'Muli', sans-serif;
+    padding: 0;
+}
+.switcher, .list-item_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+    transition: all 0.3s;
+}
+.list-icon {
+    color: white !important;
+}
+.switcher {
+    &:focus {
+        background: yellow;
+        color: #222629;
+        transition: all 0.3s;
+        .list-icon {
+            color: #222629 !important;
+        }
+    }
+    &:hover {
+        background: yellow;
+        color: #222629;
+        transition: all 0.3s;
+        .list-icon {
+            color: #222629 !important;
+        }
+    }
+}
+.main {
+    flex-grow: 1,
+}
